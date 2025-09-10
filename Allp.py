@@ -11,7 +11,7 @@ from art import *                  #
 import sys                         #
 from termcolor import colored      #
 ####################################
-tools = ["1 : Arping", "2 : IP Identifier", "3 : Portchecker", "4 : Macchanger", "5 : Pic&PDFdownloader"]
+tools = ["1 : Arping", "2 : IP Identifier", "3 : Portchecker", "4 : Macchanger", "5 : Pic&PDFdownloader", "6 : Exit"]
 # Vars
 ######
 system('clear')
@@ -185,4 +185,7 @@ elif user == 2:
     IP()
 elif user == 1:
     arping()
-
+elif user == 6:
+    textt = "Goodbye!".center(50)
+    tprint(textt)
+    sys.exit()
