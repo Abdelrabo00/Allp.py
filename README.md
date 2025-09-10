@@ -4,7 +4,10 @@ This tool was created by Ahmed Abdelrabo.
 
 Important: Use this tool only for legal and authorized actions.
 
-Prerequisite: You must install the [arts] module  in order to run this tool correctly.
+Prerequisite: You must install the [art] module  in order to run this tool correctly.
+[pip install art]
+
+Note: This tool is not "cross-platform" it is designed specifically for Linux.
 
 This tool includes the following utilities:
 
